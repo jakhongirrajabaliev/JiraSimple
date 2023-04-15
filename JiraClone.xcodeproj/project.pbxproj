@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46ACC6653C1A2A77ED614525 /* Pods_JiraClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434C61483DE17D98C0F72EAF /* Pods_JiraClone.framework */; };
+		7F26C05D29E92CB800AC83A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26C05C29E92CB800AC83A5 /* AppDelegate.swift */; };
+		7F26C06629E92CBA00AC83A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F26C06529E92CBA00AC83A5 /* Assets.xcassets */; };
+		7F26C06929E92CBA00AC83A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F26C06729E92CBA00AC83A5 /* LaunchScreen.storyboard */; };
+		7F26C07129E92F9400AC83A5 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26C07029E92F9400AC83A5 /* MainController.swift */; };
+		7F26C07329E92F9C00AC83A5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26C07229E92F9C00AC83A5 /* MainView.swift */; };
+		7F26C07829E941B500AC83A5 /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26C07729E941B500AC83A5 /* BoardCell.swift */; };
+		7FC51FCF29E9A6BD006228EE /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC51FCE29E9A6BD006228EE /* Plan.swift */; };
+		7FC5790129E9C25800B50DA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FC5790029E9C25800B50DA6 /* GoogleService-Info.plist */; };
+		7FC5790529E9C32100B50DA6 /* Fire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5790429E9C32000B50DA6 /* Fire.swift */; };
+		7FC5790729E9C3B600B50DA6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5790629E9C3B600B50DA6 /* Alert.swift */; };
+		7FC5790929EAB89200B50DA6 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5790829EAB89200B50DA6 /* Status.swift */; };
+		7FC5790B29EACB7300B50DA6 /* Extension + UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5790A29EACB7300B50DA6 /* Extension + UIDevice.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21852E7B2413613B3765ED13 /* Pods-JiraClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiraClone.release.xcconfig"; path = "Target Support Files/Pods-JiraClone/Pods-JiraClone.release.xcconfig"; sourceTree = "<group>"; };
+		434C61483DE17D98C0F72EAF /* Pods_JiraClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiraClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55070E33356169F8E328C167 /* Pods-JiraClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiraClone.debug.xcconfig"; path = "Target Support Files/Pods-JiraClone/Pods-JiraClone.debug.xcconfig"; sourceTree = "<group>"; };
+		7F26C05929E92CB800AC83A5 /* JiraClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F26C05C29E92CB800AC83A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F26C06529E92CBA00AC83A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F26C06829E92CBA00AC83A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F26C06A29E92CBA00AC83A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F26C07029E92F9400AC83A5 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		7F26C07229E92F9C00AC83A5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F26C07729E941B500AC83A5 /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		7FC51FCE29E9A6BD006228EE /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		7FC5790029E9C25800B50DA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FC5790429E9C32000B50DA6 /* Fire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire.swift; sourceTree = "<group>"; };
+		7FC5790629E9C3B600B50DA6 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7FC5790829EAB89200B50DA6 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		7FC5790A29EACB7300B50DA6 /* Extension + UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIDevice.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F26C05629E92CB800AC83A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ACC6653C1A2A77ED614525 /* Pods_JiraClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F26C05029E92CB800AC83A5 = {
+			isa = PBXGroup;
+			children = (
+				7F26C05B29E92CB800AC83A5 /* JiraClone */,
+				7F26C05A29E92CB800AC83A5 /* Products */,
+				FDA4C9F46569A8B5D9E5645D /* Pods */,
+				D42111EB494D63BA35F5A082 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F26C05A29E92CB800AC83A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F26C05929E92CB800AC83A5 /* JiraClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F26C05B29E92CB800AC83A5 /* JiraClone */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5790329E9C29800B50DA6 /* Network */,
+				7FC51FCD29E9A6AE006228EE /* Model */,
+				7F26C07429E92FA200AC83A5 /* Controllers */,
+				7FC5790229E9C28B00B50DA6 /* Helpers */,
+				7F26C05C29E92CB800AC83A5 /* AppDelegate.swift */,
+				7F26C06529E92CBA00AC83A5 /* Assets.xcassets */,
+				7F26C06729E92CBA00AC83A5 /* LaunchScreen.storyboard */,
+				7F26C06A29E92CBA00AC83A5 /* Info.plist */,
+				7FC5790029E9C25800B50DA6 /* GoogleService-Info.plist */,
+			);
+			path = JiraClone;
+			sourceTree = "<group>";
+		};
+		7F26C07429E92FA200AC83A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F26C07529E92FC500AC83A5 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F26C07529E92FC500AC83A5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7F26C07029E92F9400AC83A5 /* MainController.swift */,
+				7F26C07229E92F9C00AC83A5 /* MainView.swift */,
+				7F26C07629E9410A00AC83A5 /* Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7F26C07629E9410A00AC83A5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7F26C07729E941B500AC83A5 /* BoardCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7FC51FCD29E9A6AE006228EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FC51FCE29E9A6BD006228EE /* Plan.swift */,
+				7FC5790829EAB89200B50DA6 /* Status.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FC5790229E9C28B00B50DA6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5790629E9C3B600B50DA6 /* Alert.swift */,
+				7FC5790A29EACB7300B50DA6 /* Extension + UIDevice.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7FC5790329E9C29800B50DA6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5790429E9C32000B50DA6 /* Fire.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D42111EB494D63BA35F5A082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				434C61483DE17D98C0F72EAF /* Pods_JiraClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA4C9F46569A8B5D9E5645D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55070E33356169F8E328C167 /* Pods-JiraClone.debug.xcconfig */,
+				21852E7B2413613B3765ED13 /* Pods-JiraClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F26C05829E92CB800AC83A5 /* JiraClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F26C06D29E92CBA00AC83A5 /* Build configuration list for PBXNativeTarget "JiraClone" */;
+			buildPhases = (
+				4055444E8C01E339972920BE /* [CP] Check Pods Manifest.lock */,
+				7F26C05529E92CB800AC83A5 /* Sources */,
+				7F26C05629E92CB800AC83A5 /* Frameworks */,
+				7F26C05729E92CB800AC83A5 /* Resources */,
+				981B558FEB0E79A41D79ECA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiraClone;
+			productName = JiraClone;
+			productReference = 7F26C05929E92CB800AC83A5 /* JiraClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F26C05129E92CB800AC83A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7F26C05829E92CB800AC83A5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 7F26C05429E92CB800AC83A5 /* Build configuration list for PBXProject "JiraClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F26C05029E92CB800AC83A5;
+			productRefGroup = 7F26C05A29E92CB800AC83A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F26C05829E92CB800AC83A5 /* JiraClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F26C05729E92CB800AC83A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F26C06929E92CBA00AC83A5 /* LaunchScreen.storyboard in Resources */,
+				7F26C06629E92CBA00AC83A5 /* Assets.xcassets in Resources */,
+				7FC5790129E9C25800B50DA6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4055444E8C01E339972920BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiraClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981B558FEB0E79A41D79ECA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JiraClone/Pods-JiraClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JiraClone/Pods-JiraClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JiraClone/Pods-JiraClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F26C05529E92CB800AC83A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC5790B29EACB7300B50DA6 /* Extension + UIDevice.swift in Sources */,
+				7F26C07329E92F9C00AC83A5 /* MainView.swift in Sources */,
+				7FC5790529E9C32100B50DA6 /* Fire.swift in Sources */,
+				7F26C07829E941B500AC83A5 /* BoardCell.swift in Sources */,
+				7FC5790929EAB89200B50DA6 /* Status.swift in Sources */,
+				7F26C07129E92F9400AC83A5 /* MainController.swift in Sources */,
+				7F26C05D29E92CB800AC83A5 /* AppDelegate.swift in Sources */,
+				7FC51FCF29E9A6BD006228EE /* Plan.swift in Sources */,
+				7FC5790729E9C3B600B50DA6 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F26C06729E92CBA00AC83A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F26C06829E92CBA00AC83A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F26C06B29E92CBA00AC83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F26C06C29E92CBA00AC83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F26C06E29E92CBA00AC83A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55070E33356169F8E328C167 /* Pods-JiraClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JiraClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JiraClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F26C06F29E92CBA00AC83A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21852E7B2413613B3765ED13 /* Pods-JiraClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JiraClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.JiraClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F26C05429E92CB800AC83A5 /* Build configuration list for PBXProject "JiraClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F26C06B29E92CBA00AC83A5 /* Debug */,
+				7F26C06C29E92CBA00AC83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F26C06D29E92CBA00AC83A5 /* Build configuration list for PBXNativeTarget "JiraClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F26C06E29E92CBA00AC83A5 /* Debug */,
+				7F26C06F29E92CBA00AC83A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F26C05129E92CB800AC83A5 /* Project object */;
+}
